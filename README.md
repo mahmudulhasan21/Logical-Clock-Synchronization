@@ -1,13 +1,16 @@
 # Logical-Clock-Synchronization
 
 Objectives:
+
 I. Write a Sync. Process that does the following:
+
     a. Maintains the list of all the active processes (address of each process)
     b. Sends the active process list to each new process connected to it.
     c. Periodically checks if the processes are active and discards the entry of dumped
     processes from the list.
 
 II. Write an Worker Process that does the following:
+
     a. When getting started, each worker process takes a random clock time, gets the list
     of all the processes form the Sync. Process and sends and receives message from
     all the active processes
